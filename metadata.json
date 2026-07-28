@@ -1,6 +1,8 @@
 {
   "name": "Muhammad Ayub - DPWO Islamabad",
   "description": "Official Professional Portal for Mr. Muhammad Ayub, District Population Welfare Officer (DPWO), Islamabad Capital Territory.",
-  "requestFramePermissions": [],
+  "requestFramePermissions": [
+    "microphone"
+  ],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Phone, Mail, Calendar, Menu, X, ShieldCheck, MapPin } from 'lucide-react';
+import { Phone, Mail, Menu, X, ShieldCheck, MapPin } from 'lucide-react';
 import { TRANSLATIONS } from '../data/portfolioData';
 import { Language, TabType } from '../types';
 
@@ -148,17 +148,6 @@ export const Header: React.FC<HeaderProps> = ({
             })}
           </div>
 
-          {/* Action Buttons */}
-          <div className="hidden md:flex items-center gap-2">
-            <button
-              onClick={() => handleTabClick('contact')}
-              className="px-3.5 py-2 rounded-lg text-xs font-bold bg-emerald-600 hover:bg-emerald-500 text-white shadow-sm hover:shadow transition-all flex items-center gap-1.5"
-            >
-              <Calendar className="w-3.5 h-3.5" />
-              <span>{t.btnScheduleMeeting}</span>
-            </button>
-          </div>
-
           {/* Mobile Menu Toggle */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -190,15 +179,6 @@ export const Header: React.FC<HeaderProps> = ({
                 </button>
               );
             })}
-            <div className="pt-3 border-t border-emerald-800/60 flex flex-col gap-2">
-              <button
-                onClick={() => handleTabClick('contact')}
-                className="w-full py-3 bg-emerald-600 active:bg-emerald-700 text-white text-sm font-bold rounded-xl flex items-center justify-center gap-2 shadow-md min-h-[44px]"
-              >
-                <Calendar className="w-4 h-4" />
-                <span>{t.btnScheduleMeeting}</span>
-              </button>
-            </div>
           </div>
         )}
       </nav>
