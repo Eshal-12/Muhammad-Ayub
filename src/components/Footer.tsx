@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShieldCheck, Phone, Mail, MapPin, ArrowUp, Linkedin, Facebook, ExternalLink, Building2, Globe } from 'lucide-react';
+import { ShieldCheck, Phone, Mail, MapPin, ArrowUp, Linkedin, Facebook, ExternalLink, Building2, Globe, MessageSquare } from 'lucide-react';
 import { PROFILE_DATA, TRANSLATIONS } from '../data/portfolioData';
 import { Language, TabType } from '../types';
 
@@ -76,6 +76,18 @@ export const Footer: React.FC<FooterProps> = ({ lang, onSelectTab }) => {
             <p className="flex items-center gap-2">
               <Phone className="w-4 h-4 text-emerald-400 shrink-0" />
               <span>{PROFILE_DATA.phone}</span>
+            </p>
+            <p className="flex items-center gap-2">
+              <MessageSquare className="w-4 h-4 text-emerald-400 shrink-0" />
+              <a
+                href={PROFILE_DATA.whatsappLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-emerald-300 text-emerald-400 font-medium underline transition-colors flex items-center gap-1"
+              >
+                <span>WhatsApp: {PROFILE_DATA.whatsapp}</span>
+                <ExternalLink className="w-3 h-3" />
+              </a>
             </p>
             <p className="flex items-center gap-2">
               <Mail className="w-4 h-4 text-emerald-400 shrink-0" />

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Phone, Mail, Menu, X, ShieldCheck, MapPin } from 'lucide-react';
-import { TRANSLATIONS } from '../data/portfolioData';
+import { Phone, Mail, Menu, X, ShieldCheck, MapPin, MessageSquare } from 'lucide-react';
+import { PROFILE_DATA, TRANSLATIONS } from '../data/portfolioData';
 import { Language, TabType } from '../types';
 
 interface HeaderProps {
@@ -58,14 +58,23 @@ export const Header: React.FC<HeaderProps> = ({
           </span>
         </div>
 
-        <div className="flex items-center gap-4 text-xs">
-          <a href="tel:+92519260142" className="hidden sm:flex items-center gap-1.5 hover:text-white transition-colors">
+        <div className="flex items-center gap-3 sm:gap-4 text-xs">
+          <a href={`tel:${PROFILE_DATA.phone.replace(/[^0-9+]/g, '')}`} className="hidden sm:flex items-center gap-1.5 hover:text-white transition-colors">
             <Phone className="w-3 h-3 text-emerald-400" />
-            <span>+92 (51) 9260142</span>
+            <span>{PROFILE_DATA.phone}</span>
           </a>
-          <a href="mailto:dpwo.islamabad@pwd.gov.pk" className="hidden sm:flex items-center gap-1.5 hover:text-white transition-colors">
+          <a
+            href={PROFILE_DATA.whatsappLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-emerald-800/80 hover:bg-emerald-700 text-emerald-200 hover:text-white transition-all font-semibold border border-emerald-600/50"
+          >
+            <MessageSquare className="w-3 h-3 text-emerald-300" />
+            <span>WhatsApp: {PROFILE_DATA.whatsapp}</span>
+          </a>
+          <a href={`mailto:${PROFILE_DATA.email}`} className="hidden md:flex items-center gap-1.5 hover:text-white transition-colors">
             <Mail className="w-3 h-3 text-emerald-400" />
-            <span>dpwo.islamabad@pwd.gov.pk</span>
+            <span>{PROFILE_DATA.email}</span>
           </a>
 
           {/* Language Toggle */}

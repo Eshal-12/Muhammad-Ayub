@@ -8,6 +8,8 @@ export const PROFILE_DATA = {
   email: 'dpwo.islamabad@pwd.gov.pk',
   phone: '+92 (51) 9260142',
   altPhone: '+92 (51) 9260143',
+  whatsapp: '+92 333 1532153',
+  whatsappLink: 'https://wa.me/923331532153',
   linkedin: 'https://www.linkedin.com/in/muhammad-ayub-5a2383103?utm_source=share_via&utm_content=profile&utm_medium=member_android',
   facebook: 'https://www.facebook.com/share/1GrAyLUdtY/',
   dhoIslamabad: 'https://www.dpwoislamabad.net/',
