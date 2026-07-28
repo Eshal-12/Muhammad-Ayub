@@ -14,6 +14,16 @@ const app = express();
 const PORT = 3000;
 
 app.use(express.json());
+app.use(express.static(path.join(process.cwd(), 'public')));
+
+// Explicit verification and sitemap routes
+app.get('/googleae243f73bf53395f.html', (req, res) => {
+  res.sendFile(path.join(process.cwd(), 'public', 'googleae243f73bf53395f.html'));
+});
+
+app.get('/sitemap.xml', (req, res) => {
+  res.sendFile(path.join(process.cwd(), 'public', 'sitemap.xml'));
+});
 
 // Initialize Gemini Client Lazily
 let genAI: GoogleGenAI | null = null;
