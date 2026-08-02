@@ -64,12 +64,13 @@ export const AboutSection: React.FC<AboutProps> = ({ lang }) => {
                 </div>
                 <div>
                   <h4 className="font-bold font-serif text-base text-amber-100">Academic Foundation</h4>
-                  <p className="text-xs text-emerald-200">Political Science & Economics Analytical Perspective</p>
+                  <p className="text-xs text-emerald-200">Public Health, Political Science & Economics Perspective</p>
                 </div>
               </div>
               <div className="flex flex-wrap gap-2 text-xs font-semibold">
+                <span className="px-3 py-1 bg-emerald-950/80 border border-emerald-600/60 rounded-lg text-emerald-200">Master of Public Health</span>
                 <span className="px-3 py-1 bg-emerald-950/80 border border-emerald-600/60 rounded-lg text-emerald-200">M.A. Political Science</span>
-                <span className="px-3 py-1 bg-emerald-950/80 border border-emerald-600/60 rounded-lg text-emerald-200">B.Sc Economics</span>
+                <span className="px-3 py-1 bg-emerald-950/80 border border-emerald-600/60 rounded-lg text-emerald-200">M.Sc. Economics</span>
               </div>
             </div>
 

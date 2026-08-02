@@ -52,10 +52,13 @@ export const Hero: React.FC<HeroProps> = ({
             {/* Quick Badges / Academic Highlights */}
             <div className="flex flex-wrap gap-2 pt-1 text-xs">
               <span className="px-3 py-1 rounded-md bg-emerald-900/80 border border-emerald-700/80 text-emerald-200 font-medium">
+                🎓 Master of Public Health (MPH)
+              </span>
+              <span className="px-3 py-1 rounded-md bg-emerald-900/80 border border-emerald-700/80 text-emerald-200 font-medium">
                 🎓 M.A. Political Science
               </span>
               <span className="px-3 py-1 rounded-md bg-emerald-900/80 border border-emerald-700/80 text-emerald-200 font-medium">
-                📊 B.Sc. Economics
+                📊 M.Sc. Economics
               </span>
               <span className="px-3 py-1 rounded-md bg-emerald-900/80 border border-emerald-700/80 text-emerald-200 font-medium flex items-center gap-1">
                 <MapPin className="w-3 h-3 text-emerald-400" /> Islamabad Capital Territory

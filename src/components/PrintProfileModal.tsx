@@ -77,13 +77,17 @@ export const PrintProfileModal: React.FC<PrintProfileProps> = ({ onClose }) => {
             <h3 className="text-base font-bold font-serif text-slate-900 border-b border-slate-200 pb-1 uppercase tracking-wider text-emerald-900">
               Academic Background
             </h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-1">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-1">
+              <div className="p-3 bg-slate-50 rounded-xl border border-slate-200">
+                <span className="font-bold text-slate-900 block text-sm">Master of Public Health (MPH)</span>
+                <span className="text-slate-600 text-xs">Public Health Administration, Epidemiology & Population Strategy</span>
+              </div>
               <div className="p-3 bg-slate-50 rounded-xl border border-slate-200">
                 <span className="font-bold text-slate-900 block text-sm">Master of Arts (M.A.) in Political Science</span>
                 <span className="text-slate-600 text-xs">Policy Formulation, Administrative Governance & State Affairs</span>
               </div>
               <div className="p-3 bg-slate-50 rounded-xl border border-slate-200">
-                <span className="font-bold text-slate-900 block text-sm">Bachelor of Science (B.Sc.) in Economics</span>
+                <span className="font-bold text-slate-900 block text-sm">Master of Science (M.Sc.) in Economics</span>
                 <span className="text-slate-600 text-xs">Demographic Analytical Modeling, Resource Allocation & Statistics</span>
               </div>
             </div>

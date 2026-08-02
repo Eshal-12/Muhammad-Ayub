@@ -17,7 +17,7 @@ export const PROFILE_DATA = {
   heroBanner: '/src/assets/images/dpwo_hero_banner_1784885947842.jpg',
   inspectionImage: '/src/assets/images/health_facility_inspection_1784885966797.jpg',
   
-  aboutBioParagraph1: `Mr. Muhammad Ayub is the committed District Population Welfare Officer (DPWO) responsible for leading the strategic planning, implementation, and oversight of Family Planning, Reproductive Health, and Mother & Child Health services across the Islamabad Capital Territory. Drawing on a strong academic background in Political Science and Economics, Mr. Ayub brings a robust, analytical perspective to policy formulation and execution. He excels at translating complex population welfare policies into practical, measurable results on the ground. Mr. Ayub oversees all field operations, ensuring the delivery of accessible, high-quality services through all district outlets and health facilities. Leveraging strong expertise in program execution, resource mobilization, and inter-agency coordination, he cultivates effective partnerships and drives targeted Information, Education, and Communication (IEC) initiatives to maximize community awareness.`,
+  aboutBioParagraph1: `Mr. Muhammad Ayub is the committed District Population Welfare Officer (DPWO) responsible for leading the strategic planning, implementation, and oversight of Family Planning, Reproductive Health, and Mother & Child Health services across the Islamabad Capital Territory. Drawing on a strong multidisciplinary academic background with Master's degrees in Public Health, Political Science, and Economics, Mr. Ayub brings a robust, analytical perspective to policy formulation and execution. He excels at translating complex population welfare policies into practical, measurable results on the ground. Mr. Ayub oversees all field operations, ensuring the delivery of accessible, high-quality services through all district outlets and health facilities. Leveraging strong expertise in program execution, resource mobilization, and inter-agency coordination, he cultivates effective partnerships and drives targeted Information, Education, and Communication (IEC) initiatives to maximize community awareness.`,
   
   aboutBioParagraph2: `District Population Welfare Officer (DPWO). Mr. Ayub takes pride in understanding the unique demographic and operational needs of each area he serves. He works closely with local communities, frontline health workers, and partner organizations to ensure the highest standard of service delivery and to drive strong performance across population welfare indicators. He welcomes engagement on current programs, potential collaborative initiatives, and any inquiries related to the district’s population strategy. With a focus on innovation, inclusivity, and measurable progress, Mr. Ayub remains committed to advancing community well-being and sustainable development throughout the district.`,
 
@@ -519,7 +519,7 @@ export const TRANSLATIONS = {
     
     aboutTitle: 'About Mr. Muhammad Ayub',
     aboutSubtitle: 'Commitment to Excellence in District Population Strategy & Public Health Governance',
-    academicBackground: 'Academic Excellence: M.A. Political Science & B.Sc Economics',
+    academicBackground: 'Academic Excellence: Master of Public Health (MPH), M.A. Political Science & M.Sc. Economics',
     
     portfolioTitle: 'Field Operations & Event Portfolio',
     portfolioSubtitle: 'Transparent, documented field monitoring, high-level consultations, CEWG summits, and community initiatives in Islamabad.',
@@ -569,7 +569,7 @@ export const TRANSLATIONS = {
     
     aboutTitle: 'محمد ایوب کے بارے میں',
     aboutSubtitle: 'ضلعی آبادی کی حکمت عملی اور عوام کی صحت کے لیے پرعزم قیادت',
-    academicBackground: 'تعلیمی پس منظر: ایم اے سیاسیات اور بی ایس سی معاشیات',
+    academicBackground: 'تعلیمی پس منظر: ماسٹرز ان پبلک ہیلتھ، ایم اے سیاسیات اور ماسٹرز ان معاشیات',
     
     portfolioTitle: 'فیلڈ مانیٹرنگ اور اہم ایونٹس',
     portfolioSubtitle: 'اسلام آباد کے صحت مراکز کا معائنہ، ورکشاپس، اجلاس اور اعلیٰ سطحی مشاورت کا مکمل ریکارڈ۔',
